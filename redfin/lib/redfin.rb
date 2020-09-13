@@ -1,6 +1,2 @@
-require "redfin/version"
-
-module Redfin
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "redfin/version"
+require_relative './redfin/cli'
