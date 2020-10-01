@@ -1,0 +1,3 @@
+class Redfin::Roseville
+
+end
