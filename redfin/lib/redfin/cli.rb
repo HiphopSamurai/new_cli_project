@@ -19,7 +19,7 @@ class Redfin::CLI
       5. Granite Bay
       6. Loomis
     DOC
-    
+
   end
 
   def menu
@@ -30,8 +30,8 @@ class Redfin::CLI
       input = gets.strip
       case input
       when "1"
-        puts "You selected Roseville"
-        #Redfin::Roseville.call
+        #puts "You selected Roseville"
+        Redfin::Roseville.call
       when "2"
         puts "You selected Auburn"
       when "3"
